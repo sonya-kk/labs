@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КРЕДИТ ОНЛАЙН</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sail&family=Signika&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <meta name="description" content="credit online">
+    <meta name="keywords" content="кредит, онлайн-кредит, быстрый кредит, займ, кредит за 5 минут">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Верхний блок -->
+        <section class="page1">
+            <div class="page1-background"></div> <!-- Блок для фонового изображения -->
+            <div class="page1-text">
+                <h1>Оформи кредит за 5 минут</h1>
+                <p>Быстро, удобно и без лишних документов. Доступно 24/7.</p>
+            </div>
+        </section>
+
+        <!-- Блок с кнопками -->
+        <section class="page2">
+            <button type="button">Калькулятор кредита</button>
+            <button type="button">Оформить заявку</button>
+            <button type="button">Часто задаваемые вопросы</button>
+            <button type="button">Контакты</button>
+        </section>
+
+        <!-- Основной блок с информацией -->
+        <section class="page3">
+            <!-- Первый блок с информацией -->
+            <div class="page3-item">
+                <h2>Как работает наш сервис</h2>
+                <div class="content">
+                    <img src="images/manwithbook.webp" alt="Как работает наш сервис" class="page3-img"> <!-- Вставьте изображение -->
+                    <div class="text-content">
+                        <p>Мы упростили процесс оформления кредита. Вам нужно только выбрать сумму, заполнить данные, и получить деньги на карту.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Второй блок с информацией -->
+            <div class="page3-item">
+                <h2>Почему выбирают нас</h2>
+                <div class="content">
+                    <img src="images/money.webp" alt="Почему выбирают нас" class="page3-img"> <!-- Вставьте изображение -->
+                    <div class="text-content">
+                        <ul>
+                            <li>Решение за 5 минут</li>
+                            <li>От 10 000 до 1 000 000 ₽</li>
+                            <li>Минимальный пакет документов</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок с формой -->
+        <section class="page4">
+            <h2>Заполните форму, чтобы получить кредит уже сегодня!</h2>
+            <form class="form" method="POST">
+                <label class="form-text" for="name">ФИО</label>
+                <input type="text" class="form-input form-name" id="name" required>
+
+                <label class="form-text" for="phone">Телефон</label>
+                <input type="tel" class="form-input form-number" id="phone" required>
+
+                <label class="form-text" for="email">Email</label>
+                <input type="email" class="form-input form-email" id="email" required>
+
+                <label class="form-text" for="amount">Сумма кредита</label>
+                <input type="text" class="form-input form-sum" id="amount" required>
+                
+                <section class="page2">
+                <button type="submit" id="submitButton">Отправить заявку</button>
+                </section>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>

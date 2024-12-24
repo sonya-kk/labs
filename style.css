@@ -1,0 +1,132 @@
+/* Общие стили */
+body {
+    background-color: #f8f4f9; /* Нежный пастельный розовый */
+    color: #4c4a5e; /* Темно-серый с фиолетовым оттенком */
+    font-size: 1.2rem; /* Увеличенный размер основного текста */
+    line-height: 1.6; /* Удобочитаемость */
+    font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Верхний блок */
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url('images/i.webp'); /* Вставьте путь к изображению */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.page1-text {
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый */
+    color: #4c4a5e; /* Темно-серый */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Жёлтая полоска с кнопками */
+.page2 {
+    background-color: #bde0fe; /* Светло-голубой */
+    border-color: #4c4a5e; /* Тёмно-серый */
+    display: flex;
+    flex-wrap: wrap; /* Для адаптивности кнопок */
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid #000; /* Чёрная рамка */
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.page2 button {
+    background-color: #ffc8dd; /* Пастельный розовый */
+
+    font-size: 1.2rem; /* Крупный текст кнопок */
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    flex: 1 1 200px; /* Адаптивные кнопки */
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Основной блок с информацией */
+.page3-item {
+    margin: 30px 0;
+}
+
+.page3-item h2 {
+    color: #4c4a5e;
+    font-size: 1.8rem; /* Увеличенный заголовок */
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Промежуток между фото и текстом */
+    flex-wrap: wrap; /* Адаптивность на маленьких экранах */
+}
+
+.page3-img {
+    border: 2px solid #ffc8dd; /* Обводка вокруг изображений */
+    width: 300px; /* Увеличенный размер фото */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+/* Блок с формой */
+.page4 {
+    background-color: #a2d2ff; /* Пастельный голубой */
+    border-color: #4c4a5e; /* Тёмно-серый */
+    text-align: center;
+    border: 2px solid #000; /* Чёрная рамка */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-text {
+    font-size: 1.1rem; /* Увеличенные подписи формы */
+    text-align: left;
+}
+
+.form-input {
+    border: 2px solid #ffc8dd;
+    padding: 10px;
+    font-size: 1rem;
+}
